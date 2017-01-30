@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.intrvw.haptiksampleapp.view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/colorPrime"
+        android:padding="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/conversation_tv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/conversation_text"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            style="@style/HeaderTextView"/>
+
+        <TextView
+            android:id="@+id/chat_list_tv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/chat_list"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            style="@style/HeaderTextView"/>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/swipe_container"/>
+
+
+</RelativeLayout>

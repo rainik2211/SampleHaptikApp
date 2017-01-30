@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b0afab</color>
+    <color name="colorPrime">#00004c</color>
+    <color name="colorPrimeDark">#000033</color>
+    <color name="colorPrimaryDark">#979693</color>
+    <color name="colorAccent">#b0afab</color>
+    <color name="list_overlay">#e5e5e5</color>
+    <color name="black_progress_overlay">#cc19324f</color>
+
+</resources>
